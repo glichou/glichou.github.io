@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /storage/doc/*
+Disallow: /storage/img/moi.*$
+Sitemap: https://gregoire.lichou.co/sitemap.xml

@@ -1,0 +1,142 @@
+body > .pusher {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav .button {
+    margin-right: 0.5em!important;
+}
+header nav .button:last-of-type {
+    margin-right: 0!important;
+}
+
+.introduction{
+    height: 15vh;
+    min-height: 90px;
+    max-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introduction.long{
+    height: 20vh;
+    min-height: 120px;
+    max-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    flex-grow: 1;
+}
+
+main.standard{
+    padding-top: 1.5em;
+}
+
+.marque img{
+    width: 150px;
+    filter: grayscale(100%);
+    opacity: 0.5!important;
+}
+
+.marque:hover img{
+    filter: none;
+    opacity: 1!important;
+}
+#experiences{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+#experiences .card[data-experience]{
+    cursor: pointer;
+}
+#formations .card[data-formation]{
+    cursor: pointer;
+}
+.logo img{
+    /**filter: grayscale(100%);**/
+    /**opacity: 0.5!important;**/
+    width: 160px!important;
+}
+
+
+.logo:hover img{
+    filter: none;
+    opacity: 1!important;
+}
+
+.grise {
+    padding: 3em 0em!important;
+    background-color: #F2F3F5!important;
+}
+.espace > div{
+    margin: 3rem 0rem;
+}
+
+.espace.ui.vertical.segment {
+    padding: 4em 0px!important;
+}
+
+#carte{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.emplacement-carte{
+    min-height: 500px;
+}
+.experience .illustrations {
+    overflow: auto;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.experience .illustrations > img {
+    height: 20rem;
+}
+
+.experience .liens {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.experience .informations {
+    margin: 0.5rem;
+}
+
+.experience .content {
+    padding: 1rem 2rem 1.5rem 2rem!important;
+}
+
+.formation {
+    display: flex!important;
+    flex-direction: column;
+}
+
+.formation .contenu {
+    flex-grow: 1;
+    margin: 2em;
+}
+
+#menu-bureau{
+    display: flex;
+}
+#menu-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 740px) {
+    #menu-bureau{
+        display: none;
+    }
+    #menu-mobile{
+        display: flex;
+    }
+}
